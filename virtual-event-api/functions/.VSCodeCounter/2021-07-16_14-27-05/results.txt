@@ -1,0 +1,97 @@
+Date : 2021-07-16 14:27:05
+Directory : /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src
+Total : 59 files,  1478 codes, 261 comments, 238 blanks, all 1977 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| TypeScript |         59 |      1,478 |        261 |        238 |      1,977 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                      | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                         |         59 |      1,478 |        261 |        238 |      1,977 |
+| handlers                                                                                                                                  |         31 |        883 |        213 |        132 |      1,228 |
+| handlers/announcements                                                                                                                    |          2 |         43 |         12 |          8 |         63 |
+| handlers/bannerContainers                                                                                                                 |          5 |        141 |         35 |         21 |        197 |
+| handlers/banners                                                                                                                          |          6 |        170 |         43 |         25 |        238 |
+| handlers/booths                                                                                                                           |          6 |        171 |         43 |         25 |        239 |
+| handlers/events                                                                                                                           |          7 |        217 |         45 |         32 |        294 |
+| handlers/webinars                                                                                                                         |          5 |        141 |         35 |         21 |        197 |
+| helpers                                                                                                                                   |         27 |        581 |         48 |        104 |        733 |
+| helpers/announcement                                                                                                                      |          1 |         23 |          0 |          4 |         27 |
+| helpers/bannerContainers                                                                                                                  |          5 |        122 |          8 |         21 |        151 |
+| helpers/banners                                                                                                                           |          5 |        120 |          3 |         20 |        143 |
+| helpers/booths                                                                                                                            |          6 |        123 |          9 |         23 |        155 |
+| helpers/events                                                                                                                            |          3 |         81 |         20 |         12 |        113 |
+| helpers/webinars                                                                                                                          |          5 |         94 |          8 |         19 |        121 |
++-------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                  | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/announcements/addAnnoucement.ts                              | TypeScript |         36 |          6 |          5 |         47 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/announcements/index.ts                                       | TypeScript |          7 |          6 |          3 |         16 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/bannerContainers/addBannerContainer.ts                       | TypeScript |         36 |          6 |          5 |         47 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/bannerContainers/deleteBannerContainer.ts                    | TypeScript |         30 |          7 |          4 |         41 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/bannerContainers/getBannerContainer.ts                       | TypeScript |         35 |          6 |          5 |         46 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/bannerContainers/index.ts                                    | TypeScript |         10 |          9 |          3 |         22 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/bannerContainers/updateBannerContainer.ts                    | TypeScript |         30 |          7 |          4 |         41 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/banners/addBanner.ts                                         | TypeScript |         36 |          6 |          5 |         47 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/banners/deleteBanner.ts                                      | TypeScript |         30 |          7 |          4 |         41 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/banners/getBanner.ts                                         | TypeScript |         34 |          6 |          5 |         45 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/banners/index.ts                                             | TypeScript |         11 |         10 |          3 |         24 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/banners/reorderBanner.ts                                     | TypeScript |         29 |          7 |          4 |         40 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/banners/updateBanner.ts                                      | TypeScript |         30 |          7 |          4 |         41 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/booths/addBooth.ts                                           | TypeScript |         36 |          6 |          5 |         47 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/booths/deleteBooth.ts                                        | TypeScript |         30 |          7 |          4 |         41 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/booths/getBooth.ts                                           | TypeScript |         35 |          6 |          5 |         46 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/booths/index.ts                                              | TypeScript |         11 |         10 |          3 |         24 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/booths/reorderBooth.ts                                       | TypeScript |         29 |          7 |          4 |         40 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/booths/updateBooth.ts                                        | TypeScript |         30 |          7 |          4 |         41 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/events/addEvent.ts                                           | TypeScript |         36 |          6 |          5 |         47 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/events/getAllBooth.ts                                        | TypeScript |         34 |          6 |          5 |         45 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/events/getAllWebinar.ts                                      | TypeScript |         34 |          6 |          5 |         45 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/events/getBannerContainers.ts                                | TypeScript |         34 |          6 |          5 |         45 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/events/getEvent.ts                                           | TypeScript |         34 |          6 |          5 |         45 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/events/index.ts                                              | TypeScript |         16 |          8 |          3 |         27 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/events/updateEvent.ts                                        | TypeScript |         29 |          7 |          4 |         40 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/webinars/addWebinar.ts                                       | TypeScript |         36 |          6 |          5 |         47 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/webinars/deleteWebinar.ts                                    | TypeScript |         30 |          7 |          4 |         41 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/webinars/getWebinar.ts                                       | TypeScript |         35 |          6 |          5 |         46 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/webinars/index.ts                                            | TypeScript |         10 |          9 |          3 |         22 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/handlers/webinars/updateWebinar.ts                                    | TypeScript |         30 |          7 |          4 |         41 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/announcement/addAnnoucementByEventId.ts                       | TypeScript |         23 |          0 |          4 |         27 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/bannerContainers/addBannerContainerByEventId.ts               | TypeScript |         38 |          5 |          6 |         49 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/bannerContainers/deleteBannerContainerByBannerContainerId.ts  | TypeScript |         24 |          1 |          4 |         29 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/bannerContainers/getBannerContainerByBannerContainerId.ts     | TypeScript |         28 |          1 |          4 |         33 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/bannerContainers/getBannerContainerByEventId.ts               | TypeScript |         10 |          0 |          3 |         13 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/bannerContainers/updateBannerContainertByBannerContainerId.ts | TypeScript |         22 |          1 |          4 |         27 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/banners/addBannerByBannerContainerId.ts                       | TypeScript |         38 |          0 |          4 |         42 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/banners/deleteBannerByBannerId.ts                             | TypeScript |         24 |          1 |          4 |         29 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/banners/getBannersByBannerContainerId.ts                      | TypeScript |         10 |          0 |          3 |         13 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/banners/reoderBannerByBannerContainerId.ts                    | TypeScript |         26 |          1 |          5 |         32 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/banners/updateBannerByBannerContainerId.ts                    | TypeScript |         22 |          1 |          4 |         27 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/booths/addBoothByEventId.ts                                   | TypeScript |         19 |          5 |          3 |         27 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/booths/deleteBoothByBoothId.ts                                | TypeScript |         24 |          1 |          4 |         29 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/booths/getBoothByBoothId.ts                                   | TypeScript |         23 |          1 |          4 |         28 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/booths/getBoothByEventId.ts                                   | TypeScript |         10 |          0 |          3 |         13 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/booths/reoderBoothByEventId.ts                                | TypeScript |         25 |          1 |          5 |         31 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/booths/updateBoothtByBoothId.ts                               | TypeScript |         22 |          1 |          4 |         27 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/events/addEventByEventDomain.ts                               | TypeScript |         18 |          5 |          4 |         27 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/events/getEventByEventDomain.ts                               | TypeScript |         41 |         14 |          4 |         59 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/events/updateEventByDomain.ts                                 | TypeScript |         22 |          1 |          4 |         27 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/initFirebase.ts                                               | TypeScript |          6 |          0 |          2 |          8 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/setResponse.ts                                                | TypeScript |         12 |          0 |          3 |         15 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/webinars/addWebinarByEventId.ts                               | TypeScript |         15 |          5 |          4 |         24 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/webinars/deleteWebinarByWebinarId.ts                          | TypeScript |         24 |          1 |          4 |         29 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/webinars/getWebinarByEventId.ts                               | TypeScript |         10 |          0 |          3 |         13 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/webinars/getWebinarByWebinarId.ts                             | TypeScript |         23 |          1 |          4 |         28 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/helpers/webinars/updateWebinarByWebinarId.ts                          | TypeScript |         22 |          1 |          4 |         27 |
+| /Users/jasontse/Documents/Notes/FYP/virtual-event-api/functions/src/index.ts                                                              | TypeScript |         14 |          0 |          2 |         16 |
+| Total                                                                                                                                     |            |      1,478 |        261 |        238 |      1,977 |
++-------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
